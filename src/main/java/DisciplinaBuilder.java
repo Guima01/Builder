@@ -5,7 +5,7 @@ import java.util.Calendar;
 public class DisciplinaBuilder {
 
     private Disciplina disciplina;
-    Calendar calendar;
+    private Calendar calendar;
 
     public DisciplinaBuilder() {
         disciplina = new Disciplina();

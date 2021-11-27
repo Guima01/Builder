@@ -11,12 +11,10 @@ import static org.junit.Assert.*;
 
 public class DisciplinaBuilderTest {
 
-    Calendar calendar;
-    Date dataInvalida;
-    Date data;
+    private Date dataInvalida;
+    private Date data;
 
     public DisciplinaBuilderTest() {
-        calendar = Calendar.getInstance();
         try {
             dataInvalida = new SimpleDateFormat("yyyy-MM-dd").parse("2013-06-23");
             data = new SimpleDateFormat("yyyy-MM-dd").parse("2022-06-23");
